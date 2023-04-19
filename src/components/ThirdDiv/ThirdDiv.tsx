@@ -43,9 +43,9 @@ const ThirdDiv = () => {
         </div>
         <div className={styles.part}>
           {" "}
-          {/* <div className={styles.headIcon}>
+          <div className={styles.headIcon}>
             <Icon icon={Icons.One} height={50}></Icon>
-          </div> */}
+          </div>
           <Icon icon={Icons.Cloud} className={styles.icon} height={40}></Icon>
           <h2>Design</h2>
           <ul>
@@ -57,9 +57,9 @@ const ThirdDiv = () => {
         </div>
         <div className={styles.part}>
           {" "}
-          {/* <div className={styles.headIcon}>
+          <div className={styles.headIcon}>
             <Icon icon={Icons.One} height={50}></Icon>
-          </div> */}
+          </div>
           <Icon
             icon={Icons.Terminal}
             className={styles.icon}
@@ -92,7 +92,7 @@ const ThirdDiv = () => {
           {" "}
           {/* <div className={styles.headIcon}>
             <Icon icon={Icons.One} height={50}></Icon>
-          </div> */}    
+          </div> */}
           <Icon
             icon={Icons.Terminal}
             className={styles.icon}
