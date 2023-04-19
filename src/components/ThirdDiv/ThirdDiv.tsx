@@ -10,7 +10,7 @@ const ThirdDiv = () => {
       <div className={styles.thirddiv}>
         {" "}
         <div className={styles.right}>
-          <Button>
+          <Button className={styles.ShowBtn}>
             Show Me How <Icon icon={Icons.ArrowRight}></Icon>
           </Button>
         </div>

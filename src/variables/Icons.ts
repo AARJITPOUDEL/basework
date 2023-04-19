@@ -58,6 +58,10 @@ enum Icons {
   Terminal = "ic:outline-terminal",
   Rocket = "mdi:rocket-launch-outline",
   One = "ph:number-circle-one-fill",
+  Facebook = "ri:facebook-circle-line",
+  Instagram = "ri:instagram-line",
+  Linkedin = "tabler:brand-linkedin",
+  Twitter = "jam:twitter-square",
 }
 
 export default Icons;

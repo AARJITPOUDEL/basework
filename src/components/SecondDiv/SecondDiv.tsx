@@ -10,7 +10,7 @@ const SecondDiv = () => {
       <div className={styles.section}>
         <h2 className={styles.title}>We work how you work</h2>
         <p className={styles.description}>
-          Level up your team with Leapfrog. Choose the engagement model that
+          Level up your team with Basework. Choose the engagement model that
           makes sense for you.
         </p>
         <div className={styles.cards}>

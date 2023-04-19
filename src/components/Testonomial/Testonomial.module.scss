@@ -1,0 +1,33 @@
+.testonomial {
+  padding: 130px;
+  font-family: "Inter", sans-serif;
+  background-image: url(./background.png);
+}
+.testonomial h3 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  padding-top: 50px;
+}
+.name {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.company {
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+.profile {
+  border-radius: 50%;
+  height: 70px;
+}
