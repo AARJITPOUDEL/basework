@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 80%;
+}
+
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 70%;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  font-family: "Inter", sans-serif;
+  width: 90%;
+}
+
+.description {
+  width: 586px;
+  height: 84px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 28px;
+}
+
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  font-family: "Urbanist";
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact {
+  padding: 6px 16px;
+  background-color: #fff;
+  color: black;
+  border-radius: 36px;
+  border: 2px solid white;
+  margin-right: 1rem;
+  font-family: "Urbanist";
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.getStarted {
+  border: none;
+  margin-top: 0;
+  cursor: pointer;
+  font-family: "Urbanist" !important;
+}
+
+.rightContainer {
+  width: 30%;
+}
+
+.image {
+  width: 20rem;
+  height: auto;
+}
+.verified {
+  margin-top: 30px;
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 5px;
+  line-height: 20px;
+}
+.logos {
+  margin-top: 6px;
+}

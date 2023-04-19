@@ -1,0 +1,111 @@
+.button,
+.variant-default {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	padding: 0.8rem 1.3rem;
+	height: 3rem;
+	border-radius: 6px;
+	background-color: var(--brand-main);
+	color: var(--brand-white);
+	border: none;
+	outline: none;
+	font-size: var(--font-md);
+	font-family: var(--urbanist-font);
+	font-weight: var(--semi-bold);
+	cursor: pointer;
+	border-radius: 6px;
+	&:hover {
+		opacity: 0.9;
+	}
+}
+.fullWidth {
+	width: 100%;
+}
+.variant-none {
+	background-color: unset;
+	color: var(--brand-main);
+	padding: 0;
+}
+.variant-none-info {
+	background-color: unset;
+	color: var(--state-info);
+	padding: 0;
+}
+.variant-none-warning {
+	background-color: unset;
+	color: var(--state-warning);
+	padding: 0;
+}
+.variant-none-danger {
+	background-color: unset;
+	color: var(--state-error);
+	padding: 0;
+}
+
+.variant-primary {
+	background-color: var(--brand-main);
+}
+
+.variant-warning {
+	background-color: var(--state-warning);
+}
+.variant-info {
+	background-color: var(--state-info);
+}
+.variant-danger {
+	background-color: var(--state-error);
+}
+
+.variant-outline-primary {
+	background-color: unset;
+	border: 1px solid var(--brand-main);
+	color: var(--brand-main);
+}
+
+.variant-outline-warning {
+	background-color: unset;
+	border: 1px solid var(--state-warning);
+	color: var(--state-warning);
+}
+.variant-outline-info {
+	background-color: unset;
+	border: 1px solid var(--state-info);
+	color: var(--state-info);
+}
+.variant-outline-danger {
+	background-color: unset;
+	border: 1px solid var(--state-error);
+	color: var(--state-error);
+}
+.variant-outline-cancel {
+	background-color: unset;
+	border: 1px solid var(--brand-teritary);
+	color: var(--brand-teritary);
+}
+
+.disabled {
+	background-color: var(--gray-500);
+	cursor: not-allowed;
+}
+
+.size-xl {
+	font-size: var(--font-xl);
+}
+.size-lg {
+	font-size: var(--font-lg);
+}
+.size-md {
+	font-size: var(--font-md);
+	font-weight: var(--medium);
+	height: fit-content;
+}
+.size-sm {
+	font-size: var(--font-sm);
+}
+.size-xs {
+	font-size: var(--font-xs);
+	padding: 0.2rem 0.5rem;
+	height: 2rem;
+}

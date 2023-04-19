@@ -1,0 +1,16 @@
+export enum VariantsEnum {
+    primary = 'primary',
+    info = 'info',
+    warning = 'warning',
+    danger = 'danger',
+    outlinePrimary = 'outline-primary',
+    outlineInfo = 'outline-info',
+    outlineWarning = 'outline-warning',
+    outlineDanger = 'outline-danger',
+    outlineCancel = 'outline-cancel',
+    none = 'none',
+    noneInfo = 'none-info',
+    noneWarning = 'none-warning',
+    noneDanger = 'none-danger',
+    default = 'default',
+}

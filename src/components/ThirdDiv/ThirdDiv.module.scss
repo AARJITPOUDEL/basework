@@ -1,0 +1,57 @@
+.thirddiv {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  color: white;
+  font-family: "Inter", sans-serif;
+
+  .left {
+    margin-right: auto;
+    width: 10rem;
+  }
+
+  .right {
+    margin-left: auto;
+  }
+
+  .heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+    width: 30rem;
+  }
+
+  .description {
+    font-size: 20px;
+    margin-bottom: 10px;
+    width: 50rem;
+  }
+}
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px;
+  font-family: "Inter", sans-serif;
+}
+
+.part {
+  margin: 20px;
+  width: 200px;
+  h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+}
+.icon {
+  margin-bottom: 15px;
+}
