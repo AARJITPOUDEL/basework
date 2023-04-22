@@ -23,8 +23,9 @@ const FirstDiv = () => {
             </p>
             <div className={styles.buttons}>
               <Button className={styles.contact}>Contact Us</Button>
-              <Button className={styles.getStarted}>View our work</Button>
-              <Icon icon={Icons.ArrowRight}></Icon>
+              <Button className={styles.getStarted}>
+                View our work <Icon icon={Icons.ArrowRight}></Icon>
+              </Button>
             </div>
             <p className={styles.verified}>Verified and Certified by:</p>
             <div className={styles.logos}>

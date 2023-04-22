@@ -66,3 +66,31 @@
   font-family: "Inter", sans-serif;
   border-radius: 20px;
 }
+@media screen and (max-width: 768px) {
+  .thirddiv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    color: white;
+    font-family: "Inter", sans-serif;
+  }
+  .right {
+    margin-right: auto;
+  }
+  .left {
+    width: 10rem;
+  }
+  .heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 30rem;
+  }
+
+  .description {
+    font-size: 20px;
+    margin-bottom: 0px;
+    width: 50rem;
+  }
+}

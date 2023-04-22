@@ -89,3 +89,86 @@
 .logos {
   margin-top: 6px;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding-bottom: 10rem;
+  }
+  .leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    width: 100%;
+  }
+  .heading {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: -0.02em;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    text-align: center;
+  }
+  .description {
+    width: 320px;
+    height: 84px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: var(--brand-white);
+    margin-top: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .image {
+    display: none;
+  }
+
+  .buttons {
+    padding-top: 0rem;
+    padding-left: 0rem;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact {
+    display: none;
+  }
+  .getStarted {
+    padding: 6px 16px;
+    background-color: #fff;
+    color: black;
+    border-radius: 36px;
+    font-weight: 500;
+    border: 2px solid white;
+    margin-right: 0rem;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .verified {
+    margin-top: 40px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    display: none;
+  }
+  .logos {
+    padding-top: 30px;
+    height: 10px;
+  }
+  .logos img {
+    width: 120px;
+  }
+}

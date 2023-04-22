@@ -1,0 +1,35 @@
+.ourproducts {
+  padding: 130px;
+}
+
+.ourproducts h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.products {
+  padding-top: 20px;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+}
+
+.first img,
+.second img {
+  width: 200px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+}
+
+.first img:hover,
+.second img:hover {
+  filter: grayscale(0%);
+  cursor: pointer;
+}

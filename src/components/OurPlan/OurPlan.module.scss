@@ -1,0 +1,56 @@
+.ourplan {
+  padding-left: 120px;
+  display: flex;
+  padding-top: 10px;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.head {
+  padding-bottom: 30px;
+}
+.head h1 {
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+}
+.head p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  padding-top: 15px;
+  width: 850px;
+}
+.left img {
+  width: 300px;
+}
+.left {
+  float: left;
+  width: 40%;
+}
+.right {
+  float: right;
+  width: 50%;
+  font-family: "Inter", sans-serif;
+}
+
+.right h4 {
+  padding-top: 30px;
+  color: #ada6a6;
+}
+.right h2 {
+  padding-top: 10px;
+  width: 300px;
+  font-size: 25px;
+}
+.right p {
+  padding-top: 20px;
+  line-height: 22px;
+}
+.button {
+  border: 2px solid white;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 30px;
+  background-color: white;
+  color: #000;
+  font-weight: 600;
+}

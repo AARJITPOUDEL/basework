@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.scss";
-import logo from "../Navbar/NavbarItems/logo.png";
+import logo from "../Navbar/logo.png";
 import Icons from "@/variables/Icons";
 import { Icon } from "@iconify/react";
 const Footer = () => {
