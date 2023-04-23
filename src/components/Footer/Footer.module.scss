@@ -59,3 +59,88 @@
 .Icons {
   cursor: pointer;
 }
+.Icon {
+  margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  .Footer {
+    display: flex;
+    background-color: #202429;
+    color: #fff;
+    padding: 20px;
+    padding-top: 40px;
+    flex-direction: column;
+    bottom: 0;
+    font-family: "Inter", sans-serif;
+  }
+
+  .Footer__Column {
+    flex-basis: calc(0% / 7);
+    margin-left: 20px;
+  }
+
+  .Footer__Title {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+
+  .Footer__List {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #767683;
+  }
+
+  .Footer__List li {
+    padding-bottom: 15px;
+    cursor: pointer;
+    color: #767683;
+    padding-top: 8px;
+  }
+
+  .Footer__List a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #767683;
+  }
+  .bottom {
+    border-top: 2px solid #333232;
+    display: flex;
+    flex-direction: column;
+    background-color: #202429;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .left p {
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    white-space: nowrap;
+  }
+  .right {
+    display: flex;
+    flex-direction: row;
+    padding-right: 0px;
+  }
+  .Icons {
+    cursor: pointer;
+    height: 20px;
+  }
+  .Icon {
+    height: 50px;
+  }
+  .desc {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+}

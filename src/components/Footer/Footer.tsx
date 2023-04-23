@@ -126,30 +126,32 @@ const Footer = () => {
             width={130}
             style={{ marginRight: "50px" }}
           />
-          <p>2023 © Basework, Inc. All rights reserved. </p>
+          <p className={styles.desc}>
+            2023 © Basework, Inc. All rights reserved.{" "}
+          </p>
         </div>
         <div className={styles.right}>
           {" "}
           <div className={styles.Icons}>
             <Icon
               icon={Icons.Facebook}
-              style={{ marginLeft: "10px" }}
               width={25}
+              className={styles.Icon}
             ></Icon>
             <Icon
               icon={Icons.Instagram}
-              style={{ marginLeft: "10px" }}
               width={25}
+              className={styles.Icon}
             ></Icon>
             <Icon
               icon={Icons.Linkedin}
-              style={{ marginLeft: "10px" }}
               width={25}
+              className={styles.Icon}
             ></Icon>
             <Icon
               icon={Icons.Twitter}
-              style={{ marginLeft: "10px" }}
               width={25}
+              className={styles.Icon}
             ></Icon>
           </div>
         </div>

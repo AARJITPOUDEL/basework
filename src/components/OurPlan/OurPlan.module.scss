@@ -22,11 +22,9 @@
   width: 300px;
 }
 .left {
-  float: left;
   width: 40%;
 }
 .right {
-  float: right;
   width: 50%;
   font-family: "Inter", sans-serif;
 }
@@ -53,4 +51,63 @@
   background-color: white;
   color: #000;
   font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .ourplan {
+    padding-left: 20px;
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+  }
+  .head {
+    padding-bottom: 30px;
+  }
+  .head h1 {
+    font-size: 30px;
+    width: 80%;
+    font-family: "Inter", sans-serif;
+  }
+  .head p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    padding-top: 15px;
+    width: 350px;
+  }
+  .left {
+    display: flex;
+    width: 50%;
+  }
+  .left img {
+    width: 280px;
+  }
+
+  .right {
+    width: 100%;
+    font-family: "Inter", sans-serif;
+  }
+
+  .right h4 {
+    padding-top: 50px;
+    color: #ada6a6;
+  }
+  .right h2 {
+    padding-top: 10px;
+    width: 300px;
+    font-size: 25px;
+  }
+  .right p {
+    padding-top: 20px;
+    line-height: 22px;
+  }
+  .button {
+    border: 2px solid white;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    background-color: white;
+    color: #000;
+    font-weight: 600;
+  }
 }

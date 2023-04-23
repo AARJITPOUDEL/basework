@@ -17,7 +17,10 @@ const ThirdDiv = () => {
         <div className={styles.left}>
           <h1 className={styles.heading}>
             Design, build, and scale your vision
-          </h1>
+          </h1>{" "}
+          <Button className={styles.Showmbl}>
+            Show Me How <Icon icon={Icons.ArrowRight}></Icon>
+          </Button>
           <p className={styles.description}>
             We're ready to be your secret digital weapon. And we're flexible.
             Work with just our developers or designers, or partner with us along
